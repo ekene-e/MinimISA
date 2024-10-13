@@ -1,0 +1,10 @@
+[package]
+name = "simu"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ekene Ezeunala <ezeunalaekene@gmail.com>"]
+description = "A Rust-based simulator using SDL2 and threads"
+license = "MIT"
+
+[dependencies]
+sdl2 = "0.34.5"

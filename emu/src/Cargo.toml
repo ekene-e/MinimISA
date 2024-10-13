@@ -1,0 +1,11 @@
+[package]
+name = "emu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ncurses = "5.101.0"
+sdl2 = { version = "0.34", features = ["static-link"] }
+
+[profile.release]
+opt-level = 2  # Equivalent to -O2 in the C flags
